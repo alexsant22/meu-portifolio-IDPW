@@ -1,6 +1,6 @@
 # Portfólio Profissional - Alexandre Santos
 
-Este é um projeto de portfólio moderno e responsivo construído exclusivamente com tecnologias web fundamentais. O site foi desenvolvido como trabalho prático para a disciplina de **ntrodução ao Desenvolvimento de Páginas Web (ARQIDPW)**, servindo como uma vitrine profissional para recrutadores e desenvolvedores.
+Este é um projeto de portfólio moderno e responsivo construído exclusivamente com tecnologias web fundamentais. O site foi desenvolvido como trabalho prático para a disciplina de **Introdução ao Desenvolvimento de Páginas Web (ARQIDPW)**, servindo como uma vitrine profissional para recrutadores e desenvolvedores.
 
 ## 🚀 Funcionalidades
 
