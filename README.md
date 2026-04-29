@@ -1,30 +1,31 @@
 # Portfólio Profissional - Alexandre Santos
 
-Este é um projeto de portfólio moderno e responsivo construído exclusivamente com tecnologias web fundamentais. O site foi desenvolvido como trabalho prático para a disciplina de **Arquitetura e Desenvolvimento Web (ARQIDPW)**, servindo como uma vitrine profissional para recrutadores e desenvolvedores.
+Este é um projeto de portfólio moderno e responsivo construído exclusivamente com tecnologias web fundamentais. O site foi desenvolvido como trabalho prático para a disciplina de **ntrodução ao Desenvolvimento de Páginas Web (ARQIDPW)**, servindo como uma vitrine profissional para recrutadores e desenvolvedores.
 
 ## 🚀 Funcionalidades
 
-* **Navegação Semântica**: Estrutura baseada em HTML5 puro para melhor indexação e acessibilidade.
-* **Design Responsivo**: Adaptado para dispositivos móveis, tablets e desktops utilizando CSS Flexbox e Media Queries.
-* **Acessibilidade**: Implementação de VLibras, textos alternativos em imagens e alto contraste.
-* **Gestão de Contato**: Formulário estruturado com validações nativas do HTML5.
-* **Navegação Interna**: Uso de Bookmarks (âncoras) para facilitar a leitura de projetos longos.
+- **Navegação Semântica**: Estrutura baseada em HTML5 puro para melhor indexação e acessibilidade.
+- **Design Responsivo**: Adaptado para dispositivos móveis, tablets e desktops utilizando CSS Flexbox e Media Queries.
+- **Acessibilidade**: Implementação de VLibras, textos alternativos em imagens e alto contraste.
+- **Gestão de Contato**: Formulário estruturado com validações nativas do HTML5.
+- **Navegação Interna**: Uso de Bookmarks (âncoras) para facilitar a leitura de projetos longos.
 
 ## 🛠️ Tecnologias Utilizadas
 
-* **HTML5**: Estruturação semântica de conteúdo.
-* **CSS3**: Estilização avançada e layout responsivo (Vanilla CSS).
-* **Metodologia**: Mobile-first design.
-* *(Nota: Por requisitos acadêmicos, este projeto não utiliza frameworks ou JavaScript).*
+- **HTML5**: Estruturação semântica de conteúdo.
+- **CSS3**: Estilização avançada e layout responsivo (Vanilla CSS).
+- **Metodologia**: Mobile-first design.
+- _(Nota: Por requisitos acadêmicos, este projeto não utiliza frameworks ou JavaScript)._
 
 ## 📋 Requisitos Acadêmicos Atendidos
 
 O projeto cumpre integralmente os seguintes critérios técnicos:
-* **Multimídia**: Inclusão de vídeo de apresentação na página "Sobre".
-* **Tabelas**: Comparativo técnico de competências e níveis de proficiência.
-* **Listas**: Organização de soft skills e tecnologias.
-* **Formulário**: Campos de texto, e-mail, seleção e botões de ação (Enviar/Limpar).
-* **Links**: Integração com redes externas (GitHub/LinkedIn) e links internos.
+
+- **Multimídia**: Inclusão de vídeo de apresentação na página "Sobre".
+- **Tabelas**: Comparativo técnico de competências e níveis de proficiência.
+- **Listas**: Organização de soft skills e tecnologias.
+- **Formulário**: Campos de texto, e-mail, seleção e botões de ação (Enviar/Limpar).
+- **Links**: Integração com redes externas (GitHub/LinkedIn) e links internos.
 
 ## 📂 Estrutura de Pastas
 
@@ -59,13 +60,15 @@ meu-portifolio-IDPW/
 Para executar o projeto localmente, não é necessário um ambiente de build:
 
 1. **Clonagem do repositório:**
+
 ```bash
 git clone [https://github.com/SEU-USUARIO/meu-portifolio-IDPW.git](https://github.com/SEU-USUARIO/meu-portifolio-IDPW.git)
 ```
 
 2. **Execução:**
-Basta abrir o arquivo `index.html` em qualquer navegador moderno (Chrome, Firefox, Edge).
+   Basta abrir o arquivo `index.html` em qualquer navegador moderno (Chrome, Firefox, Edge).
 
 ---
+
 **Autor:** Alexandre Elson Costa Santana Santos  
 **Disciplina:** Arquitetura e Desenvolvimento Web (ARQIDPW)
