@@ -35,16 +35,18 @@ A arquitetura do diretório foi organizada para garantir escalabilidade e fácil
 meu-portifolio-IDPW/
 │
 ├── index.html               # Home: Apresentação e resumo principal
-├── sobre.html               # Bio: Trajetória e conteúdo multimídia
-├── habilidades.html         # Skills: Listas e tabelas técnicas
-├── projetos.html            # Portfolio: Cards e bookmarks internos
-├── contato.html             # Contact: Formulário de mensagem
+├── README.md                # Documentação principal do projeto
 │
-└── assets/                  # Recursos globais
-    ├── css/
-    │   └── style.css        # Folha de estilo única
-    ├── img/                 # Assets de imagem (perfil, projetos)
-    └── media/               # Arquivos de vídeo e áudio
+├── assets/                  # Recursos globais estáticos
+│   ├── css/                 # Pasta de estilos CSS do projeto
+│   ├── image/               # Assets de imagem (perfil, projetos, etc)
+│   └── media/               # Ficheiros de vídeo e áudio
+│
+└── pages/                   # Páginas secundárias do portefólio
+    ├── contato.html         # Contact: Formulário de mensagem
+    ├── habilidades.html     # Skills: Listas e tabelas técnicas
+    ├── projetos.html        # Portfolio: Cards e bookmarks internos
+    └── sobre.html           # Bio: Trajetória e conteúdo multimédia
 ```
 
 ## 💻 Páginas do Projeto
