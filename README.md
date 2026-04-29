@@ -62,7 +62,7 @@ Para executar o projeto localmente, não é necessário um ambiente de build:
 1. **Clonagem do repositório:**
 
 ```bash
-git clone [https://github.com/SEU-USUARIO/meu-portifolio-IDPW.git](https://github.com/SEU-USUARIO/meu-portifolio-IDPW.git)
+git clone https://github.com/alexsant22/meu-portifolio-IDPW.git
 ```
 
 2. **Execução:**
