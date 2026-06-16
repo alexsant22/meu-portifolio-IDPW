@@ -47,3 +47,103 @@ nav a {
 nav a:hover {
   color: #38bdf8;
 }
+
+.page-banner {
+  padding: 120px 0;
+
+  text-align: center;
+}
+
+.page-banner h1 {
+  font-size: 3rem;
+
+  margin-bottom: 20px;
+}
+
+.page-banner p {
+  max-width: 700px;
+
+  margin: auto;
+
+  color: #cbd5e1;
+}
+
+.about {
+  padding: 80px 0;
+}
+
+.about-content {
+  display: flex;
+
+  gap: 60px;
+
+  align-items: center;
+}
+
+.about-image {
+  flex: 1;
+}
+
+.about-image img {
+  width: 100%;
+
+  max-width: 350px;
+
+  border-radius: 20px;
+}
+
+.about-text {
+  flex: 2;
+}
+
+.about-text h2 {
+  margin-bottom: 20px;
+}
+
+.about-text p {
+  line-height: 1.8;
+
+  margin-bottom: 20px;
+}
+
+.timeline {
+  padding: 80px 0;
+}
+
+.timeline-item {
+  display: flex;
+
+  gap: 30px;
+
+  margin-bottom: 40px;
+}
+
+.timeline-item span {
+  color: #38bdf8;
+
+  font-size: 1.4rem;
+
+  font-weight: bold;
+
+  min-width: 80px;
+}
+
+.goals {
+  padding: 80px 0;
+}
+
+.goals-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+  gap: 25px;
+}
+
+.goal-card {
+  background: #1e293b;
+
+  padding: 30px;
+
+  border-radius: 15px;
+}
