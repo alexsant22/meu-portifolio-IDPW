@@ -16,6 +16,10 @@ body {
   margin: auto;
 }
 
+.container h1 {
+  margin-top: 40px;
+}
+
 .container h2 {
   margin-bottom: 40px;
 }
