@@ -134,6 +134,7 @@ nav a:hover {
   background: #38bdf8;
 
   color: #0f172a;
+  border: 1px solid #38bdf8;
 
   text-decoration: none;
 
@@ -152,7 +153,9 @@ nav a:hover {
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
+  background: #0f172a;
+  color: #38bdf8;
 }
 
 .btn-secondary {
@@ -170,6 +173,7 @@ nav a:hover {
 }
 
 .btn-secondary:hover {
+  transform: translateY(-5px);
   background: #38bdf8;
   color: #0f172a;
 }
