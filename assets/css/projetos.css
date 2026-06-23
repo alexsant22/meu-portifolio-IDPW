@@ -77,9 +77,13 @@ nav a:hover {
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.02);
 
   border-color: #38bdf8;
+
+  box-shadow:
+    0 0 20px rgba(56, 189, 248, 0.3),
+    0 0 50px rgba(56, 189, 248, 0.15);
 }
 
 .project-image {

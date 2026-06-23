@@ -51,6 +51,7 @@ nav a {
 nav a:hover {
   color: #38bdf8;
 }
+
 .contact {
   padding: 80px 0;
 }
@@ -92,6 +93,10 @@ nav a:hover {
   border-color: #38bdf8;
 
   transform: translateY(-3px);
+
+  box-shadow:
+    0 0 20px rgba(56, 189, 248, 0.3),
+    0 0 50px rgba(56, 189, 248, 0.15);
 }
 
 .contact-item strong {
@@ -122,6 +127,18 @@ nav a:hover {
   border-radius: 20px;
 
   border: 1px solid #334155;
+
+  transition: 0.3s;
+}
+
+.contact-form:hover {
+  border-color: #38bdf8;
+
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 0 20px rgba(56, 189, 248, 0.3),
+    0 0 50px rgba(56, 189, 248, 0.15);
 }
 
 .form-group {
@@ -178,7 +195,8 @@ nav a:hover {
 .contact-form button:hover {
   transform: translateY(-3px);
 
-  background: #60cfff;
+  background: #0f172a;
+  color: #60cfff;
 }
 
 @media (max-width: 900px) {
