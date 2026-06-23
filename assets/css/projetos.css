@@ -196,6 +196,10 @@ nav a:hover {
 }
 
 @media (max-width: 900px) {
+  header h1 {
+    text-align: center;
+  }
+
   .project-card {
     flex-direction: column;
   }
@@ -210,6 +214,127 @@ nav a:hover {
 
   .project-content h2 {
     font-size: 1.7rem;
+  }
+}
+
+/* Tablets pequenos e smartphones grandes (max 600px) */
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 0;
+  }
+
+  nav ul {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .page-banner {
+    padding: 16px 0;
+  }
+
+  .page-banner h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  .page-banner p {
+    font-size: 0.95rem;
+  }
+
+  .projects {
+    padding: 40px 0;
+  }
+
+  .project-card {
+    margin-bottom: 28px;
+    border-radius: 14px;
+  }
+
+  .project-card:hover {
+    transform: none;
+  }
+
+  .project-image {
+    min-height: 180px;
+    padding: 20px;
+  }
+
+  .project-content {
+    padding: 20px;
+  }
+
+  .project-content h2 {
+    font-size: 1.4rem;
+    margin-bottom: 14px;
+  }
+
+  .project-content p {
+    font-size: 0.92rem;
+    line-height: 1.65;
+    margin-bottom: 16px;
+  }
+
+  .project-tech {
+    gap: 8px;
+    margin-bottom: 18px;
+  }
+
+  .project-tech span {
+    padding: 6px 12px;
+    font-size: 0.82rem;
+  }
+
+  .project-buttons {
+    gap: 12px;
+  }
+
+  .project-buttons a {
+    padding: 10px 18px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Smartphones pequenos (max 400px) */
+@media (max-width: 400px) {
+  nav a {
+    font-size: 0.9rem;
+  }
+
+  nav ul {
+    gap: 12px;
+  }
+
+  .page-banner h1 {
+    font-size: 1.7rem;
+  }
+
+  .project-image {
+    min-height: 140px;
+    padding: 14px;
+  }
+
+  .project-content {
+    padding: 16px;
+  }
+
+  .project-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .project-buttons {
+    flex-direction: column;
+  }
+
+  .project-buttons a {
+    text-align: center;
   }
 }
 
