@@ -128,12 +128,24 @@ nav a:hover {
   border: 1px solid #334155;
 
   font-size: 0.9rem;
+
+  transition: 0.3s;
+}
+
+.hero-stack span:hover {
+  transform: scale(1.05);
+
+  background: #38bdf8;
+
+  color: #0f172a;
+  border: 1px solid #38bdf8;
 }
 
 .btn-primary {
   background: #38bdf8;
 
   color: #0f172a;
+  border: 1px solid #38bdf8;
 
   text-decoration: none;
 
@@ -152,7 +164,9 @@ nav a:hover {
 }
 
 .btn-primary:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
+  background: #0f172a;
+  color: #38bdf8;
 }
 
 .btn-secondary {
@@ -170,6 +184,7 @@ nav a:hover {
 }
 
 .btn-secondary:hover {
+  transform: translateY(-5px);
   background: #38bdf8;
   color: #0f172a;
 }
@@ -192,6 +207,12 @@ nav a:hover {
   border-radius: 50%;
 
   border: 4px solid #38bdf8;
+
+  transition: 0.3s;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
 
   box-shadow:
     0 0 20px rgba(56, 189, 248, 0.3),
